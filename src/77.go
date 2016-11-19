@@ -13,13 +13,23 @@ type Users struct {
 	Password  string `json:"password"`
 }
 
+type Response struct {
+	Result []Users
+}
+
 func listUsers(c echo.Context) error {
-	users := &Users{
+	pat := Users{
 		"THAWATCHAI",
 		"SINGNGAM",
 		"P@ssw0rd",
 	}
-	return c.JSON(http.StatusOK, users)
+	jerd := Users{
+		"BANJERD",
+		"PRATUMHOM",
+		"123456",
+	}
+	result := []Users{pat, jerd}
+	return c.JSON(http.StatusOK, result)
 }
 
 func main() {
