@@ -1,0 +1,6 @@
+GOROOT=/Users/Tajlando/go
+GOBIN=/Users/Tajlando/go/bin
+GOPATH=/Users/Tajlando/code/go-101
+PATH=$PATH:/Users/Tajlando/go/bin
+
+export GOROOT GOBIN GOPATH PATH
