@@ -25,4 +25,11 @@ Golang 101
 
 ---
 
+Credit Code:
+============
+
+1. http://www.golangbootcamp.com/book/basics
+2. https://www.golang-book.com/books/intro
+3. https://gobyexample.com/
+
 
