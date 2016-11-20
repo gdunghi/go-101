@@ -1,4 +1,4 @@
 set GOROOT=/c/Go
 set GOBIN=/c/Go/bin
-set OPATH=/c/Users/lab/code/go-101
+set GOPATH=/c/Users/lab/code/go-101
 set PATH=%PATH%:%GOBIN%
